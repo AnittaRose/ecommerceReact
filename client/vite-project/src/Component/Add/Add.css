@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  /* .formbackimg{
+    background-image: url(https://img.freepik.com/free-photo/beauty-bag-with-different-cosmetics-white-table_23-2148047052.jpg?t=st=1733572157~exp=1733575757~hmac=e710fbb16325e75f6b48f78f1a803e479a0feb305ae263c49420b86cc29e451c&w=1060); 
+     background-repeat: no-repeat;
+    /* backdrop-filter: blur(10px); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* width: 100vh; */
+    /* height: 100vh; */
+  /* } */ */
+  .input{
+    width: 100vh;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    color: orangered;
+    font-size: 15px;
+    color: black;
+  }
+  .input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+  .SelectCategoriesinput{
+    width: 70vh;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    background:rgb(255,205,187);
+  }
+.SelectCategoriesinput::placeholder{
+  color: black;
+}
+  .footer{
+    width: 70vh;
+    border: 2px solid orangered;
+    padding: 18px;
+    border-radius: 5px;
+    background-color:transparent;
+  }
+  .subbttn{
+     width: 35vh;
+     padding: 5px;
+     border: 2px solid orangered;
+     border-radius: 5px;
+     background-color: white;
+     color: orangered;
+     font-size: 18px;
+     font-weight: bolder;
+  }
+  .form12{
+    background-color: rgba(255, 68, 0, 0.268);
+    width: 108vh;
+    height: 100vh;
+  }
